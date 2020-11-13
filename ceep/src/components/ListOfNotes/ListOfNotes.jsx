@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Note from '../Note/Note';
+import Note from '../Note';
 import './style.css';
 class ListOfNotes extends Component { /* export para usar a classe no App.js | Default mostra que por padrão esta exportando essa classe*/
     /* Responsável por renderizar o elemento */

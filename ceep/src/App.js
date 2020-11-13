@@ -1,7 +1,8 @@
 import React, { Component }from 'react';
-import ListOfNotes from './components/ListOfNotes/ListOfNotes'//Importa a classe criada com os elementos
-import FormRegister from "./components/FormRegistro/FormRegister"
-import './App.css';
+import ListOfNotes from './components/ListOfNotes/'//Importa a classe criada com os elementos
+import FormRegister from "./components/FormRegister/"
+import './assets/App.css';
+import './assets/index.css';
 class App extends Component {
   render() {
     return (// Responsável por renderizar o elemento
